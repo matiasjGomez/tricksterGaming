@@ -21,8 +21,8 @@ const NavBar = () => {
     return (
         <header
           className={`${
-            isActive ? 'bg-white py-4 shadow-md glow bg-gradient-to-r from-red-500' : 'bg-none py-6'
-          } fixed w-full z-10 transition-all border border-b-red-500`}
+            isActive ? 'bg-white py-4 shadow-md glow bg-gradient-to-r from-red-500' : ' py-6'
+          } fixed w-full z-10 transition-all border border-b-red-500 bg-black`}
         >
 <nav>
   <div className='container mx-auto flex items-center justify-between h-full'>

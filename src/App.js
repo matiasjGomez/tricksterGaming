@@ -14,6 +14,7 @@ import CartView from './pages/CartView';
 import Sidebar from './components/Sidebar';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import Checkout from './components/Checkout';
 
 const App = () => {
   return <div className='overflow-hidden'>
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='item/:id' element= {<ItemDetailsContainer />}/>
         <Route exact path= '/category/:categoryName' element={<ItemListContainer />} />
         <Route path='/cartview/' element={<CartView />}/>
+        <Route path='/checkout/' element={<Checkout />} />
       </Routes>
       <Sidebar />
       <Footer />
